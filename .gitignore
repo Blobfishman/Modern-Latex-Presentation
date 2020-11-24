@@ -1,0 +1,13 @@
+*.aux
+
+*.log
+
+*.nav
+
+*.out
+
+presentation.pdf
+
+*.snm
+
+*.toc
