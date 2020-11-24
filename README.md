@@ -1,12 +1,7 @@
-![UFGTeXPresentation logo](https://raw.githubusercontent.com/deuslirio/UFGTeX-Presentation/master/readme/ufgtexpresentation.png)
-
 ## What is it?
-A Latex template to help students, professors, or researchers from Universidade Federal de Goiás (UFG) to prepare their presentation slides in the **format 16:9**. This template is based on the version available in the Google Slides at [here](https://docs.google.com/presentation/d/1NSXSP5SnpIE0fsVCebAj9x2UfSAlGvlGEEt0zA_y2aE). Besides presenting a modern design concept, UFGTeXPresentation provides different slides’ layouts and color schemas to personalize the presentation.
-
-![Template example](https://raw.githubusercontent.com/deuslirio/UFGTeX-Presentation/master/readme/title_layout_print.png)
 
 ## How to use
-After downloading or cloning this repository, you must edit the file **presentation.tex** to fill the content of the presentation. Firstly, take a look at the "Primary Definitions" part, at the begin of such a **.tex**, and modify its parties, whether is needed. if you compile the code without changing, it will look like [this](https://github.com/deuslirio/UFGTeX-Presentation/blob/master/figs/UFGTeX_Presentation.pdf). 
+After downloading or cloning this repository, you must edit the file **presentation.tex** to fill the content of the presentation. Firstly, take a look at the "Primary Definitions" part, at the begin of such a **.tex**, and modify its parties, whether is needed. 
 
 **To set the default color** of the presentation, you can use the command `\setPrimaryColor{color}`. This command supports one of the colors defined by the template or any color defined by the user.  
 
@@ -74,9 +69,7 @@ Despite the colors defined in the template, one can define his/her personalized 
 ```
 
 ## Template's Layouts
-At this momment, UFGTeXPresentation has five option for slides' layout: **titlepage, vertical, horizontal, mainpoint,** and **blank**. You can see each layout appearance at the following figure:  
- ![Template example](https://raw.githubusercontent.com/deuslirio/UFGTeX-Presentation/master/readme/layouts.png) 
-
+At this momment, Modern-Latex-Presentation has five option for slides' layout: **titlepage, vertical, horizontal, mainpoint,** and **blank**. 
 ## Summary of the Template's commands
 
 | Template Commands  | Number of Params | Type of Params | Example                                            |
@@ -86,16 +79,9 @@ At this momment, UFGTeXPresentation has five option for slides' layout: **titlep
 | setPrimaryColor    | 1                | Color          | \setPrimaryColor{UFGBlue}                          |
 | setLogos           | 2                | Image URL      | \setLogos{lib/logos/infw.png}{lib/logos/infw2.png} |
 
-## UFGTeXPoster on Overleaf
 
-This project was fully developed on the [Overleaf](https://www.overleaf.com), an online LaTeX editor that has joined with another service called ShareLatex. Therefore, if you prefere working online in one of the services above, you may find UFGTexPresentation available in the official Overleaf's templates gallery at [here](https://www.overleaf.com/latex/templates/ufgtex-presentation/zhvynsrvwnrg).
+## Acknowledgement
 
-## Other UFG Latex Template
+This Template is based on the [UFGTeX-Presentation](https://github.com/deuslirio/UFGTeX-Presentation) 
+Template.
 
-- [UFGTeXPoster](https://github.com/altinodantas/ufgtexposter)
-
-## Disclaimer
-
-This project is a personal initiative, under open source and collaborative principles, which until now has no formal association with the Federal University of Goiás institution. Thus, this template is not an official artifact from such a university.
-
-> If you have some comments or suggestion, let we know by sending email to deuslirio.junior@gmail.com or tinodantas@gmail.com.

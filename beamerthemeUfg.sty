@@ -13,6 +13,7 @@
 \definecolor{INFBlue}{RGB}{0, 92, 161}
 \definecolor{UFGBlue}{RGB}{0, 114, 185}
 \definecolor{PrimaryColor}{RGB}{33, 33, 33}
+\definecolor{UOS}{RGB}{171, 16, 55}
 
 \definecolor{DarkGray}{RGB}{33,33,33}
 \definecolor{LightGray}{RGB}{150,150,150}
@@ -29,13 +30,13 @@
     \colorlet{PrimaryColor}{#1}
 }
 
-\newcommand{\setLogos}[2]{
+\newcommand{\setLogos}[3]{
     \pgfdeclareimage[height=12mm]{logo1_title}{#1}
     \pgfdeclareimage[height=10mm]{logo2_small}{#2}
     \pgfdeclareimage[width=13mm]{logo2_medium}{#2}
     
-    % set UFG logo
-    \pgfdeclareimage[height=15mm]{logo3}{lib/logos/ufg_black.pdf}
+    % set logo
+    \pgfdeclareimage[height=15mm]{logo3}{#3}
 }
 
 \newcommand{\setDefaultConfig}{

@@ -7,14 +7,15 @@
 \usetheme{Ufg}
 
 %-------------------------------------theorems--------------
-\newtheorem{conj}{Conjetura}
-\newtheorem{defi}{Definição}
-\newtheorem{teo}{Teorema}
-\newtheorem{lema}{Lema}
-\newtheorem{prop}{Proposição}
-\newtheorem{cor}{Corolário}
-\newtheorem{ex}{Exemplo}
-\newtheorem{exer}{Exercício}
+% Uncomment for German
+\newtheorem{conj}{Vermutung}
+\newtheorem{defi}{Definition}
+\newtheorem{teo}{Theorem}
+\newtheorem{lema}{Lemma}
+\newtheorem{prop}{Vorschlag}
+\newtheorem{cor}{Folgerung}
+\newtheorem{ex}{Beispiel}
+\newtheorem{exer}{Übung}
 
 \setbeamertemplate{theorems}[numbered]
 \setbeamertemplate{caption}[numbered]
@@ -23,10 +24,10 @@
 %----------------------- Primary Definitions -----------------%
 
 % This command set the default Color, is also possible to choose a custom color
-\setPrimaryColor{UFGBlue} 
+\setPrimaryColor{UOS} 
 
-% First one is logo in title slide (we recommend use a horizontal image), and second one is the logo used in the remaining slides (we recommend use a square image)
-\setLogos{lib/logos/infw.png}{lib/logos/infw2.png} 
+% First one is logo in title slide (we recommend use a horizontal image), and second one is the logo used in the remaining slides (we recommend use a square image); the third one is used as a second logo on the title page
+\setLogos{lib/logos/wide-logo.pdf}{lib/logos/square-logo.pdf}{lib/logos/wide-logo.pdf} 
 
 
 % -------------------------------------- Title Slide Information
@@ -78,7 +79,7 @@
     \begin{block}{Solução}
         Pela regra da soma, $V=V_1+V_2$. Como as variáveis só podem começar com letras, temos que $V_1=26$. Pela regra do produto, há $26\cdot 36=936$ sequências de tamanho $2$ que comecem com uma letra e terminam com um caracter alfanumérico. Porém, não se deve usar $5$ variáveis reservadas. Assim, $V_2=26\cdot 36-5=931$. Logo, há $V=V_1+V_2 = 26+931=957$ nomes diferentes para variáveis nesta versão do BASIC.
     \end{block}
-
+one is used as a second logo on the title pagelogo-black
 \end{frame}
 %---------------------------------------------------------
 
@@ -119,8 +120,8 @@
 
     \begin{figure}
         \centering
-        \includegraphics[width=.9\textwidth]{readme/layouts.png}
-        \caption{Template's Layouts.}
+        \includegraphics[width=.5\textwidth]{lib/logos/wide-logo.pdf}
+        \caption{Template Logo.}
         \label{fig:layouts}
     \end{figure}
     
@@ -240,12 +241,12 @@
         \centering
         \begin{subfigure}{0.2\textwidth}
             \centering
-            \includegraphics[height=1cm]{lib/logos/infw.png}
+            \includegraphics[height=1cm]{lib/logos/square-logo.pdf}
         \end{subfigure}%
         \qquad 
         \begin{subfigure}{0.2\textwidth}
             \centering
-            \includegraphics[height=1cm]{lib/logos/ufgw.png}
+            \includegraphics[height=1cm]{lib/logos/square-logo.pdf}
         \end{subfigure}
       
     \end{figure}
